@@ -1,5 +1,5 @@
 {
-    "fileserver": "C:\\Users\\bna\\workspaces\\ckm\\config-products\\ehrcraft_folder\\abc",
+    "fileserver": "./openehr-models",
     "weights": [
         {
             "when": "1971-06-16T00:00:00+02:00",
