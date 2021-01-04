@@ -17,5 +17,5 @@ The data in weight.config.json.TEMPLATE is the growth chart data for <https://gi
 ## Run
 
 ```C#
-dotnet  run -- -i .\weight.config.json -v weight
+dotnet  run -- -i .\weight.config.json.TEMPLATE -v weight
 ```
