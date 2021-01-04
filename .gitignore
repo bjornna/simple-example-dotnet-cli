@@ -35,3 +35,6 @@ msbuild.wrn
 # Not include config files 
 
 weight.config.json 
+
+# Not include tmp dir 
+tmp/

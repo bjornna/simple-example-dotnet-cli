@@ -64,6 +64,12 @@ namespace DotnetOpenEhr {
                 var json = DIPS.OpenEhr.RM.Serialization.Json.ReferenceModelJsonSerializer.Serialize (composition, true);
                 if (verbose)
                     Console.WriteLine (json);
+                var outdir = "tmp";
+                if (!Directory.Exists (outdir)) {
+                    Directory.CreateDirectory (outdir);
+                }
+                var outfile = "tmp/" + cid.GetHierObjectId () + ".json";
+                File.WriteAllText (outfile, json);
             }
         }
 
